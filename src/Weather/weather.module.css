@@ -1,0 +1,141 @@
+.container{
+    margin: 0; 
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.counter{
+    margin: 0; 
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: aliceblue;
+    color: blue;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.counter button{
+    height: 35px;
+    padding: 0px 20px;
+    margin-top: 20px;
+    background-color: blue;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.generator{
+    margin: 0; 
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    color: aliceblue;
+    background-color: blue;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.generator button{
+    height: 35px;
+    padding: 0px 20px;
+    margin-top: 20px;
+    color: blue;
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.main{
+    width: 300px;
+    height: auto;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 16px #000025;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.main h1{
+    font-size: 26px;
+    color: blue;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+}
+.inpt{
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+.inpt form{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.inpt form input{
+    height: 35px;
+    flex-basis: 70%;
+    background-color: blue;
+    color: #ffffff;
+    border: none;
+    padding-left: 8px;
+    outline: none;
+    border-radius: 5px;
+}
+.inpt form button{
+    height: 35px;
+    flex-basis: 20%;
+    background-color: blue;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.inpt h2{
+    text-align: center;
+    margin: 0;
+    color: blue;
+}
+.inpt h4{
+    text-align: center;
+    margin: 0;
+    color: blue;
+}
+.inpt h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    /* margin-top: 10px; */
+}
+.inpt img{
+    margin: 20px 0px;
+}
+.head{
+    font-size: 50px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.counterBTN{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
